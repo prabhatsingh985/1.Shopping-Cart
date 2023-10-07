@@ -1,0 +1,43 @@
+/* CartItem.css */
+
+/* Styling for the individual cart item */
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .cart-item-image {
+    max-width: 100px;
+    margin-right: 10px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-item-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cart-item-price {
+    color: #e91e63; /* Customize the color as needed */
+  }
+  
+  /* Styling for the remove button */
+  .cart-item-remove-button {
+    background-color: #e91e63;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .cart-item-remove-button:hover {
+    background-color: #c2185b; /* Darker color on hover */
+  }
+  

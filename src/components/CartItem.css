@@ -1,0 +1,55 @@
+/* CartItem.css */
+
+.overall {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Add a border between items */
+    padding: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .overall.deleting {
+    background-color: #ffcccc; /* Change background color while deleting */
+  }
+  
+  .photo img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+  }
+  
+  .item-details {
+    flex-grow: 1;
+  }
+  
+  .titlehai {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .descriptionhai {
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .pricehai {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #00a855;
+    margin-top: 0.5rem;
+  }
+  
+  .logohai {
+    font-size: 1.5rem;
+    color: #ff4b4b;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .logohai.deleting {
+    transform: scale(0.9); /* Add a shrinking effect when deleting */
+  }
+  
